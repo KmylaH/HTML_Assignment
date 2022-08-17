@@ -1,0 +1,112 @@
+body {
+    background-color: #ECEFF4;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+#container > h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    align-self: center;
+    color: black;
+    font-weight: 200;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+#container > .text {
+    margin: 8px 16px;
+    font-family: 'Helvetica', sans-serif;
+    color: #736D71;
+}
+
+#container > .userinput {
+    align-self: center;
+}
+
+#container > .text > input {
+    align-self: center;
+    padding: 8px;
+    font-size: 14pt;
+    flex-grow: 1;
+    border: none;
+    background: #ECEFF4;
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+#container > .text > input:focus {
+    outline: none;
+    border: 1px solid #0984e3;
+}
+
+#container > input:hover {
+    background: #81A1C1;
+}
+
+#container > .check {
+    display: flex;
+    margin: 8px 16px;
+}
+
+#container > h4 {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    align-self: center;
+    color: black;
+    background-color: #409ECC;
+}
+
+.roundedbutton {
+    position: absolute;
+    align-self: center;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+}
+
+#register > .button {
+    background-color: #409ECC;
+    float: left;
+    size: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#register > .button:hover {
+    background-color: white;
+    color: #409ECC;
+}
+  
+#signup > .button {
+    background-color: #79C06E;
+    float: right;
+    size: 20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#signup > .button:hover {
+    background-color: white;
+    color: #79C06E;
+}
